@@ -1,5 +1,6 @@
 Show all images in a folder with PHP
 ------------------------------------
+> strongly based in [easy-folio](https://github.com/mlpetersen/easy-folio)
 
 A simple webpage to display all images in a folder. It requires PHP.
 
@@ -40,6 +41,12 @@ In [`ins-imgs.php`](https://github.com/lthr/show-all-images-in-a-folder-with-php
     # Set to false if you want the oldest images to appear first
     # This is only used if images are sorted by date (see above)
     $newestImagesFirst = true;
+```
+
+The img folder is a symlink to your image folder:
+
+```bash
+~$ ln -s  /Users/arocha/Pictures /usr/local/var/www/photos/img
 ```
 
 Make the changes needed for your setup.
