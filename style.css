@@ -1,0 +1,16 @@
+body {
+    background-color: #C8D3D6;
+}
+
+.pagination {
+    margin: auto;
+    font-size: 32px;
+}
+
+.pagination span {
+    padding: 5px;
+}
+
+.pagination a {
+    padding: 5px;
+}
